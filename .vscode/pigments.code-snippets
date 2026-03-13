@@ -1,0 +1,7 @@
+{
+	"pigment": {
+		"scope": "json",
+		"prefix": "pig",
+		"body": "{\"Name\":\"Pigment\",\"State\":{\"ColorId\":$1},\"Stack\":1}$0"
+	}
+}

@@ -1,0 +1,104 @@
+{
+	"InitialContents": [
+		{
+			"Name": "BlueprintBook"
+		},
+		{
+			"Name": "BlueprintPage",
+			"State": {
+				"BlueprintName": "MixingDrum"
+			}
+		},
+		{
+			"Name": "Plank",
+			"State": {
+				"Wood": "Ebony"
+			},
+			"Stack": 6
+		},
+		{
+			"Name": "Slab",
+			"State": {
+				"Stone": "Schist"
+			},
+			"Stack": 6
+		},
+		{
+			"Name": "Ingot",
+			"State": {
+				"Metal": "Aluminium"
+			},
+			"Stack": 3
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 9
+			},
+			"Stack": 999
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 90
+			},
+			"Stack": 999
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 900
+			},
+			"Stack": 999
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 909
+			},
+			"Stack": 999
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 99
+			},
+			"Stack": 999
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 990
+			},
+			"Stack": 999
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 227
+			},
+			"Stack": 999
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 722
+			},
+			"Stack": 999
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 267
+			},
+			"Stack": 999
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 777
+			},
+			"Stack": 999
+		}
+	]
+}

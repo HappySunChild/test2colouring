@@ -1,0 +1,116 @@
+{
+	"InitialContents": [
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 900
+			},
+			"Stack": 1
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 800
+			},
+			"Stack": 1
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 801
+			},
+			"Stack": 1
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 701
+			},
+			"Stack": 1
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 702
+			},
+			"Stack": 1
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 602
+			},
+			"Stack": 1
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 503
+			},
+			"Stack": 1
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 404
+			},
+			"Stack": 1
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 304
+			},
+			"Stack": 1
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 305
+			},
+			"Stack": 1
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 205
+			},
+			"Stack": 1
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 206
+			},
+			"Stack": 1
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 107
+			},
+			"Stack": 1
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 108
+			},
+			"Stack": 1
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 8
+			},
+			"Stack": 1
+		},
+		{
+			"Name": "Pigment",
+			"State": {
+				"ColorId": 9
+			},
+			"Stack": 1
+		}
+	]
+}
