@@ -1,7 +1,7 @@
 from tkinter import Scale, Misc
 from typing import Callable
 
-from ...color.flowers import RED_FLOWER, YELLOW_FLOWER, BLUE_FLOWER, WHITE_FLOWER
+from ...color.Flowers import RED_FLOWER, YELLOW_FLOWER, BLUE_FLOWER, WHITE_FLOWER
 from .PigmentInput import PigmentInput
 
 SLIDER_WIDTH = 10

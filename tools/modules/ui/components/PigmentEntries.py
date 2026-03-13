@@ -1,7 +1,7 @@
 from typing import Callable
 from tkinter import Entry, Label, Misc, IntVar
 
-from ...color.flowers import RED_FLOWER, YELLOW_FLOWER, BLUE_FLOWER, WHITE_FLOWER
+from ...color.Flowers import RED_FLOWER, YELLOW_FLOWER, BLUE_FLOWER, WHITE_FLOWER
 from .PigmentInput import PigmentInput
 
 ENTRY_WIDTH = 30
