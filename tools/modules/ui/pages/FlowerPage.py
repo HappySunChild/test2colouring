@@ -22,35 +22,35 @@ class FlowerPage(Page):
 		
 		self.content = container
 		
-		_color_display = ColorDisplay(container)
-		_color_display.place(x=210, y=5)
+		color_display = ColorDisplay(container)
+		color_display.place(x=210, y=5)
 		
-		_quantized_color_display = ColorDisplay(container, "ColorId Preview")
-		_quantized_color_display.place(x=325, y=5)
+		quantized_color_display = ColorDisplay(container, "ColorId Preview")
+		quantized_color_display.place(x=325, y=5)
 		
-		self._color_display = _color_display
-		self._quantized_color_display = _quantized_color_display
+		self.color_display = color_display
+		self.quantized_color_display = quantized_color_display
 		
-		self._pigment_entries = PigmentEntries(container, self.update_display)
-		self._pigment_scales = PigmentScales(container, self.update_display)
+		self.pigment_entries = PigmentEntries(container, self.update_display)
+		self.pigment_scales = PigmentScales(container, self.update_display)
 		
-		self._active_input = self._pigment_scales
+		self.active_input = self.pigment_scales
 		
 		# TODO: allow multiple mixing steps, with optionally with arbitrary colorid inputs.
 		
-		self.set_active_input(self._pigment_entries)
+		self.set_active_input(self.pigment_scales)
 		self.update_display()
 	
 	def set_active_input(self, input: PigmentInput):
-		if self._active_input:
-			self._active_input.pack_forget()
+		if self.active_input:
+			self.active_input.pack_forget()
 		
 		input.pack(anchor="w")
 		
-		self._active_input = input
+		self.active_input = input
 	
 	def update_display(self, *_):
-		r, y, b, w = self._active_input.get_RYBW_ratios()
+		r, y, b, w = self.active_input.get_RYBW_ratios()
 		
 		z_mix = [0.0] * LATENT_SIZE
 	
@@ -62,7 +62,7 @@ class FlowerPage(Page):
 		
 		mixed_color = Color(*latent_to_float_rgb(z_mix))
 		
-		self._active_input.update_labels()
+		self.active_input.update_labels()
 		
-		self._color_display.set_color(mixed_color)
-		self._quantized_color_display.set_color(mixed_color.quantized)
+		self.color_display.set_color(mixed_color)
+		self.quantized_color_display.set_color(mixed_color.quantized)
